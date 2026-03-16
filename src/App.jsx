@@ -325,7 +325,7 @@ export default function App() {
             </div>
 
             <div className="hero-photo">
-              <img className="avatar" src="/avatar.png" alt={`${PROFILE.name} portrait`} />
+              <img className="avatar" src="/Portfolio/profile.png" alt={`${PROFILE.name} portrait`} />
             </div>
           </div>
         </section>
