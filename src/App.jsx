@@ -6,17 +6,17 @@ export default function App() {
   const PROFILE = useMemo(
     () => ({
       name: "Prashant Pandey",
-      headline: "Sr. Project Engineer · React · SQL/PLSQL · Power BI",
+      headline: "Senior Project Engineer | ReactJS • SQL • Data Operations",
       summary:
-        "Senior Project Engineer with 4+ years of experience building data-driven web apps and interactive dashboards. I enjoy turning messy data into clean, useful products.",
-      location: "Noida, India",
+        "I am Prashant Pandey, a Senior Project Engineer with over 4 years of experience in ReactJS and SQL. My expertise includes data operations, database management, and developing interactive web applications. I have hands-on experience in solving complex technical problems and contributing to end-to-end development and data-driven projects.",
+      location: "Greater Noida, India",
       experience: "4+ years experience",
-      highlights: ["React", "SQL/PLSQL", "Power BI"],
+      highlights: ["ReactJS", "SQL", "Data Operations"],
       links: {
-        email: "mailto:prashantpandey@example.com",
-        linkedin: "https://www.linkedin.com/in/",
-        github: "https://github.com/",
-        resume: "/Portfolio/resume.pdf",
+        email: "mailto:prashant.pandeyl6@wipro.com",
+        linkedin: "https://linkedin.com/in/prashantpandey87",
+        github: "https://github.com/prashanpaney87",
+        resume: "/resume.html",
       },
     }),
     []
@@ -38,15 +38,23 @@ export default function App() {
     () => [
       {
         title: "Frontend",
-        items: ["React", "JavaScript", "HTML", "CSS"],
+        items: ["ReactJS", "JavaScript (ES6+)", "HTML5", "CSS3", "Bootstrap", "Material-UI"],
       },
       {
-        title: "Data",
-        items: ["SQL", "PL/SQL", "Power BI", "DAX", "Data Modeling"],
+        title: "Languages",
+        items: ["JavaScript (ES6+)", "SQL"],
       },
       {
         title: "Tools",
-        items: ["Git", "Postman", "VS Code", "Cursor"],
+        items: ["Visual Studio Code", "Cursor"],
+      },
+      {
+        title: "Web Frameworks",
+        items: ["ReactJS (Hooks, Components, Routing, Redux)"],
+      },
+      {
+        title: "Gen AI",
+        items: ["Prompt Engineering", "ChatGPT"],
       },
     ],
     []
@@ -58,11 +66,10 @@ export default function App() {
         role: "Sr. Project Engineer",
         company: "Wipro Limited",
         meta: "2021 – Present",
-        tags: ["React", "SQL/PLSQL", "Power BI"],
+        tags: ["React", "SQL"],
         bullets: [
           "Working as a Senior Project Engineer, contributing to application development and data analytics initiatives.",
-          "Responsible for optimizing SQL/PLSQL queries, handling large-scale data operations, and developing interactive web applications using ReactJS.",
-          "Developed Power BI dashboards and reports to provide actionable insights for stakeholders and support data‑driven decision‑making.",
+          "Responsible for optimizing SQL queries, handling large-scale data operations, and developing interactive web applications using ReactJS.",
           "Collaborated with cross‑functional teams across end‑to‑end development, database management, and technical problem‑solving while maintaining high performance and data integrity.",
           "Continuously learning and implementing new technologies to improve development efficiency and analytical capabilities.",
         ],
@@ -87,23 +94,17 @@ export default function App() {
         tags: ["React.js", "JavaScript", "HTML", "CSS", "REST APIs"],
       },
       {
-        title: "Power BI Reporting & Analytics Dashboard",
+        title: "InfluencerAI Platform",
         links: [],
         bullets: [
-          "Developed interactive dashboard to analyze operational and project performance metrics with DAX‑based KPIs.",
-          "Integrated multiple data sources and automated refresh; reduced manual reporting with real‑time tracking.",
+          "Developed frontend components for an AI-based influencer platform that generates and publishes content automatically on Instagram.",
+          "Integrated AI services to generate character images and convert them into videos using image-to-video generation tools.",
+          "Designed dynamic UI components to handle content creation, preview, and automated posting workflows.",
+          "Connected frontend with backend services using REST APIs to fetch generated media, manage workflows, and trigger publishing.",
+          "Implemented reusable components to display AI characters, generated videos, and publishing status.",
+          "Collaborated with backend and AI integration teams to ensure smooth content generation and delivery pipeline.",
         ],
-        tags: ["Power BI", "DAX", "SQL", "SharePoint"],
-      },
-      {
-        title: "Data Migration (Greenplum/Hive → BigQuery)",
-        links: [],
-        bullets: [
-          "Performed large‑scale data migration from Greenplum and Hive into Google BigQuery using SQL‑based ETL processes.",
-          "Wrote and optimized SQL queries; resolved migration errors and schema mismatches using advanced SQL debugging.",
-          "Executed data validation and reconciliation via record‑level comparisons and checksum methods.",
-        ],
-        tags: ["SQL", "GCP", "BigQuery", "ETL", "Data Validation"],
+        tags: ["React.js", "JavaScript", "HTML", "CSS", "REST APIs", "Generative AI"],
       },
     ],
     []
