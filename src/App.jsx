@@ -13,10 +13,10 @@ export default function App() {
       experience: "4+ years experience",
       highlights: ["ReactJS", "JavaScript", "Web Development"],
       links: {
-        email: "mailto:prashantpandey4650@gmail.com.com",
+        email: "mailto:prashantpandey4650@gmail.com",
         linkedin: "https://linkedin.com/in/prashantpandey87",
         github: "https://github.com/prashantpandey87",
-        resume: "https://drive.google.com/file/d/1rpPaTal8z7S-erIRULU6n77tw4i2Vu9n/view?usp=sharing",
+        resume: "https://drive.google.com/file/d/1ZLqPBSAc-F2Q-kRNnq_X2bRQAeciLpGz/view?usp=sharing",
       },
     }),
     []
