@@ -6,17 +6,17 @@ export default function App() {
   const PROFILE = useMemo(
     () => ({
       name: "Prashant Pandey",
-      headline: "Frontend Engineer | ReactJS • JavaScript • Web Development",
+      headline: "Senior Frontend Developer | React • Next.js • TypeScript • JavaScript • React Query • Redux",
       summary:
-        "I am Prashant Pandey, a Frontend Engineer with over 4 years of experience in ReactJS and JavaScript. My expertise includes building responsive user interfaces, creating reusable components, and developing interactive web applications. I have hands-on experience solving complex technical problems and delivering scalable frontend solutions.",
+        "Senior Frontend Developer with 5+ years of professional experience building enterprise-grade web applications using React, Next.js, and TypeScript. Specialized in admin dashboards, role-based UI systems, operational data views, complex tables, filters, drill-downs, charting, real-time communication features (WebSocket, Agora SDK), and performance-focused frontend architecture. Experienced in REST API integration, secure route guards, permission-based access, real-time polling, SSR/SEO concepts in Next.js, and scalable UI development with Redux, MUI, Ant Design, and Tailwind CSS.",
       location: "Greater Noida, India",
-      experience: "4+ years experience",
-      highlights: ["ReactJS", "JavaScript", "Web Development"],
+      experience: "5+ years experience",
+      highlights: ["React", "Next.js", "TypeScript"],
       links: {
         email: "mailto:prashantpandey4650@gmail.com",
         linkedin: "https://linkedin.com/in/prashantpandey87",
         github: "https://github.com/prashantpandey87",
-        resume: "https://drive.google.com/file/d/1AI3iXAK06Z4PIZyEZNlNCrUtwrBNPwVn/view?usp=sharing",
+        resume: "https://drive.google.com/file/d/1htFJP3LOWXmWGU9n3w9D9rv4HWx53RPh/view?usp=sharing",
       },
     }),
     []
@@ -37,24 +37,40 @@ export default function App() {
   const SKILLS = useMemo(
     () => [
       {
-        title: "Frontend",
-        items: ["ReactJS", "JavaScript (ES6+)", "HTML5", "CSS3", "Bootstrap", "Material-UI"],
-      },
-      {
         title: "Languages",
-        items: ["JavaScript (ES6+)", "SQL"],
+        items: ["TypeScript", "JavaScript (ES6+)"],
       },
       {
-        title: "Tools",
-        items: ["Visual Studio Code", "Cursor"],
+        title: "Frameworks & Libraries",
+        items: ["ReactJS", "NextJS", "Redux", "React Router DOM", "Axios"],
       },
       {
-        title: "Web Frameworks",
-        items: ["ReactJS (Hooks, Components, Routing, Redux)"],
+        title: "State Management",
+        items: ["Redux", "React Query", "React Context API"],
       },
       {
-        title: "Gen AI",
-        items: ["Prompt Engineering", "ChatGPT"],
+        title: "Forms & Validation",
+        items: ["React Hook Form", "Formik", "Yup", "Zod"],
+      },
+      {
+        title: "Charting & Data Viz",
+        items: ["Recharts", "Chart.js"],
+      },
+      {
+        title: "Design Systems & UI",
+        items: ["Material UI (MUI)", "Ant Design", "Bootstrap", "Tailwind CSS"],
+      },
+      {
+        title: "Auth & Security",
+        items: ["OAuth2", "JWT", "Route Guards", "RBAC Patterns"],
+      },
+      {
+        title: "Tools & Integration",
+        items: ["Git", "GitHub", "Bitbucket", "Jira", "REST APIs", "WebSockets", "Polling", "SSE", "Agora SDK", "Firebase", "HLS.js"],
+      },
+      {
+        title: "AI/LLM Tools",
+        items: ["OpenAI", "ChatGPT", "Claude Code", "Codex", "MCP"],
       },
     ],
     []
@@ -63,15 +79,34 @@ export default function App() {
   const EXPERIENCE = useMemo(
     () => [
       {
+        role: "Senior Frontend Developer",
+        company: "Deep TechnoServices LLP",
+        meta: "05/2026 – Present",
+        tags: ["Next.js", "Agora SDK", "WebSocket", "Firebase", "TanStack Query", "Zod", "Redux", "Tailwind CSS"],
+        bullets: [
+          "Developed real-time communication features using Agora SDK for audio/video calling and WebSocket for live chat and notifications.",
+          "Integrated Firebase for social login (authentication) and push notifications.",
+          "Built and maintained scalable frontend applications using Next.js with a focus on performance and responsive design using Tailwind CSS.",
+          "Implemented data fetching, caching, and synchronization using TanStack Query, and managed complex application state with Redux.",
+          "Implemented form handling and schema-based validation using Zod to ensure data integrity across workflows.",
+          "Integrated frontend with backend services via REST APIs to support dynamic data rendering and real-time interactions.",
+          "Collaborated with backend and product teams to deliver reliable, low-latency real-time features.",
+        ],
+      },
+      {
         role: "Frontend Engineer",
         company: "Wipro Limited",
-        meta: "2021 – Present",
-        tags: ["React", "JavaScript"],
+        meta: "09/2021 – 03/2026 · Noida, UP (Hybrid)",
+        tags: ["React.js", "Next.js", "TypeScript", "JavaScript", "Redux", "MUI", "Tailwind CSS"],
         bullets: [
-          "Working as a Frontend Engineer, contributing to modern web application development and user experience improvements.",
-          "Responsible for building interactive, responsive, and accessible web interfaces using ReactJS and JavaScript.",
-          "Collaborated with cross-functional teams to deliver end-to-end frontend features, improve UI performance, and ensure clean component architecture.",
-          "Continuously learning and implementing frontend best practices to improve development speed, maintainability, and user satisfaction.",
+          "Built and maintained enterprise-grade web applications using React.js, Next.js, JavaScript, and TypeScript with a focus on performance, scalability, and clean UI architecture.",
+          "Developed reusable, modular UI components for dashboards, forms, tables, filters, and data-driven workflows.",
+          "Integrated frontend with backend services using REST APIs and Axios to support dynamic data rendering, authentication flows, and user interactions.",
+          "Implemented form handling, validation, and state management for complex workflows using Redux, React Query, and validation libraries.",
+          "Optimized rendering performance using memoization techniques to reduce unnecessary re-renders and improve UI responsiveness.",
+          "Worked on route guards, JWT-based authentication, and permission-based UI rendering for secure application access.",
+          "Collaborated with backend developers, QA teams, and stakeholders to deliver end-to-end features with reliable data flow.",
+          "Debugged UI issues, improved layouts, and ensured responsive behavior across browsers and screen sizes.",
         ],
       },
     ],
@@ -81,7 +116,40 @@ export default function App() {
   const PROJECTS = useMemo(
     () => [
       {
+        title: "Astroscience",
+        meta: "Deep TechnoServices LLP · 05/2026 – Present · Senior Frontend Developer",
+        links: [],
+        bullets: [
+          "Developed and maintained a scalable astrology platform using Next.js (App Router) and TypeScript.",
+          "Implemented API integration, caching, and server state management using TanStack Query (React Query).",
+          "Built reusable, responsive UI components with Tailwind CSS, ensuring a seamless experience across desktop and mobile devices.",
+          "Integrated dynamic modules including Janam Kundali, Varshphal, Bhajan & Mantra, Baby Name Generator, Matchmaking, and Predictions.",
+          "Implemented WebSocket for real-time communication and live data updates across the application.",
+          "Integrated the Agora SDK to enable real-time audio and video calling features with channel management and call lifecycle handling.",
+          "Used HLS.js for adaptive video streaming and media playback.",
+          "Optimized application performance using lazy loading, code splitting, and efficient API caching.",
+          "Improved SEO and media performance using Next.js rendering strategies and next/image optimization.",
+          "Collaborated with backend engineers to integrate REST APIs, troubleshoot production issues, and deliver features in an Agile environment.",
+        ],
+        tags: ["Next.js (App Router)", "TypeScript", "React Query", "Tailwind CSS", "WebSocket", "Agora SDK", "HLS.js", "REST APIs"],
+      },
+      {
+        title: "Masterverses Platform",
+        meta: "Wipro Limited · 02/2024 – 03/2026 · Frontend Developer",
+        links: [],
+        bullets: [
+          "Developed frontend components for a platform focused on content discovery, events, and user engagement.",
+          "Designed dynamic UI components to support event browsing, content exploration, and user dashboard workflows.",
+          "Integrated frontend with backend services to fetch and display platform data, including events, user activities, and engagement features.",
+          "Connected the application with REST APIs to manage workflows related to content display, user interactions, and activity tracking.",
+          "Implemented reusable components to present content feeds, user progress, and interaction status.",
+          "Collaborated with backend teams to ensure smooth data flow and a consistent user experience across the platform.",
+        ],
+        tags: ["React.js", "JavaScript", "HTML", "CSS", "REST APIs"],
+      },
+      {
         title: "Data Migration Platform",
+        meta: "Wipro Limited · 11/2021 – 11/2023 · Frontend Developer",
         links: [],
         bullets: [
           "Developed frontend components for a data migration platform used to transfer data from multiple databases to Google BigQuery.",
@@ -95,16 +163,15 @@ export default function App() {
       },
       {
         title: "InfluencerAI Platform",
+        meta: "Personal Project · Frontend Developer",
         links: [],
         bullets: [
           "Developed frontend components for an AI-based influencer platform that generates and publishes content automatically on Instagram.",
-          "Integrated AI services to generate character images and convert them into videos using image-to-video generation tools.",
           "Designed dynamic UI components to handle content creation, preview, and automated posting workflows.",
           "Connected frontend with backend services using REST APIs to fetch generated media, manage workflows, and trigger publishing.",
           "Implemented reusable components to display AI characters, generated videos, and publishing status.",
-          "Collaborated with backend and AI integration teams to ensure smooth content generation and delivery pipeline.",
         ],
-        tags: ["React.js", "JavaScript", "HTML", "CSS", "REST APIs", "Generative AI"],
+        tags: ["React.js", "TypeScript", "REST APIs", "Generative AI"],
       },
     ],
     []
@@ -393,7 +460,10 @@ export default function App() {
             {PROJECTS.map((p) => (
               <div className="project" key={p.title}>
                 <div className="project-top">
-                  <h3 className="project-title">{p.title}</h3>
+                  <div>
+                    <h3 className="project-title">{p.title}</h3>
+                    {p.meta ? <div className="project-subtitle">{p.meta}</div> : null}
+                  </div>
                   <div className="project-links">
                     {p.links.map((l) => (
                       <a key={l.label} className="link" href={l.href} target="_blank" rel="noreferrer">
